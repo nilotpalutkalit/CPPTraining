@@ -40,7 +40,7 @@ int main()
 
     // ______________________________________________________________________________________________________
 
-    //{
+    // {
     //    CustomString string1;
     //    cout << "________________________" << endl;
     //    {
@@ -53,10 +53,11 @@ int main()
     //        string2 = stringAssign;
     //        cout << "________________________" << endl;
     //    }
-    //}
+    // }
 
 
     getchar();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
