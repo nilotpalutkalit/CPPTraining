@@ -36,7 +36,7 @@ public:
             return;
         }
         _string = new char[length + 1];
-        strcpy_s(_string, length + 1, _cstr);
+        strncpy(_string, _cstr, length + 1);
         Display("ParameterizedConstructor ");
     }
 
@@ -56,6 +56,7 @@ public:
         _string = tempStr._string;
         tempStr._string = toDelete;
         Display("Assignment Operator");
+        return *this;
     }
 
 
